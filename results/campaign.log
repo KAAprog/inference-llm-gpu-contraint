@@ -1,0 +1,51 @@
+[20:14:28] ======================================================================
+[20:14:28] PHASE 1 — POIDS (baseline : cache fixe FP16) | grille=reduced
+[20:14:28]   Script : 01_quant_poids.py
+[20:14:28]   Total : 9 | deja faits : 0 | a faire : 9
+[20:14:28] ======================================================================
+[20:14:28]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=512
+[20:14:28]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=512
+[20:14:28]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=512
+[20:14:28]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=2048
+[20:14:28]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=2048
+[20:14:28]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=2048
+[20:14:28]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=8192
+[20:14:28]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=8192
+[20:14:28]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=8192
+[20:14:28] Campagne terminee.
+[10:43:44] Repertoire projet : /home/adeline/Documents/Default Project
+[10:43:44] ======================================================================
+[10:43:44] PHASE 1 — POIDS (cache fixe FP16 natif)
+[10:43:44]   Script : scripts/01_quant_poids.py
+[10:43:44]   Total : 30 | deja faits : 0 | a faire : 30
+[10:43:44] ======================================================================
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=512
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=True ctx=512
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=512
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=True ctx=512
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=512
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=True ctx=512
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=1024
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=True ctx=1024
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=1024
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=True ctx=1024
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=1024
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=True ctx=1024
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=2048
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=True ctx=2048
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=2048
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=True ctx=2048
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=2048
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=True ctx=2048
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=4096
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=True ctx=4096
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=4096
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=True ctx=4096
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=4096
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=True ctx=4096
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=False ctx=8192
+[10:43:44]   [A FAIRE] quant=int4 kv=fp16 flash=True ctx=8192
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=False ctx=8192
+[10:43:44]   [A FAIRE] quant=int8 kv=fp16 flash=True ctx=8192
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=False ctx=8192
+[10:43:44]   [A FAIRE] quant=fp16 kv=fp16 flash=True ctx=8192
